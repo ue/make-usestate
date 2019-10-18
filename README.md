@@ -15,6 +15,8 @@ Select the desired ones(supports for kind variable).
 Using Command Palette (CMD/CTRL + SHIFT + R) Or
 `Cmd+Shift+P` and select `Make useState` thats it.
 
+VSCode v1.39
+
 ## For questions
 
 [Repo](https://github.com/ue/make-usestate)

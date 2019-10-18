@@ -1,11 +1,22 @@
 {
-	"name": "state-to-usestate",
+	"name": "make-usestate",
 	"author": "ue",
-	"displayName": "Convert state to useState",
+	"displayName": "Make useState | Convert state to useState",
 	"description": "easily convert class state to useState",
-	"version": "0.0.1",
+	"version": "0.0.2",
+	"license": "MIT",
+	"icon": "icon.png",
+	"repository": {
+    "type": "git",
+    "url": "https://github.com/ue/make-usestate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ue/make-usestate/issues",
+    "email": "ugurerdal93@gmail.com"
+  },
+	"publisher": "ue",
 	"engines": {
-		"vscode": "^1.0.0"
+		"vscode": "^1.39.0"
 	},
 	"categories": [
 		"Other"
