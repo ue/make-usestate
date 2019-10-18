@@ -22,8 +22,12 @@ function activate(context) {
         if (selectedText && !selectedText.includes('this.state') && selectedText !== '};') {
           const dividedLine = selectedText.split(':');
           const stateName = dividedLine[0] && dividedLine[0].trim();
-          const initialState = dividedLine[1] && dividedLine[1].trim().replace(',', '');
+          let initialState = dividedLine[1] && dividedLine[1].trim().replace(',', '');
           const camelCaseStateName = stateName.charAt(0).toUpperCase() + stateName.slice(1);
+
+          if (initialState.includes('props.')) {
+            initialState = initialState.replace('props.', '');
+          }
 
           if (dividedLine[0].includes(',')) initialState.replace(',', "");
           const whiteSpace = new Array(whiteSpaceCount).join(" ");

@@ -17,7 +17,7 @@
 	"contributes": {
 		"commands": [{
             "command": "extension.stateToUseState",
-			"title": "State To useState"
+			"title": "Make useState"
 		}],
 		"keybindings": [
       {

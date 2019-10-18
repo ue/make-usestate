@@ -1,13 +1,13 @@
 <h1 align="center"> Make useState - React state to useState converter - VScode Extension </h1>
 
-<p align="center"> Easy way to converting all state to useState! 😎</p>
+<p align="center"> Easy way to converting all state to useState! ⚛️</p>
 
 <p align="center"> Visual Studio Code Extension - You can use in multi line or single for converting. Don't waste your time for changing to hook</p>
-<p align="center"><img align="center" src="https://media.giphy.com/media/28evaf0snirPcDCigC/giphy.gif"/></p>
+<p align="center"><img align="center" src="https://media.giphy.com/media/WoKkMUd7SXbica1L7H/giphy.gif"/></p>
 
 ## Install
 
-Click to extension tab and search `Make useState` and install it reload your editor. Or use this [Alphabetical Sorter](https://marketplace.visualstudio.com/items?itemName=ue.make-usestate).
+Click to extension tab and search `Make useState` and install it reload your editor. Or use this [Make useState](https://marketplace.visualstudio.com/items?itemName=ue.make-usestate).
 
 ## Usage
 
