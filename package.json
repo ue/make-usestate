@@ -3,7 +3,7 @@
 	"author": "ue",
 	"displayName": "Make useState | Convert state to useState",
 	"description": "easily convert class state to useState",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"license": "MIT",
 	"icon": "icon.png",
 	"repository": {
@@ -16,7 +16,7 @@
   },
 	"publisher": "ue",
 	"engines": {
-		"vscode": "^1.39.0"
+		"vscode": "^1.0.0"
 	},
 	"categories": [
 		"Other"
@@ -46,7 +46,7 @@
 		"@types/glob": "^7.1.1",
 		"@types/mocha": "^5.2.6",
 		"@types/node": "^10.12.21",
-		"@types/vscode": "^1.39.0",
+		"@types/vscode": "^1.0.0",
 		"eslint": "^5.13.0",
 		"glob": "^7.1.4",
 		"mocha": "^6.1.4",
