@@ -7,13 +7,13 @@
 	"license": "MIT",
 	"icon": "icon.png",
 	"repository": {
-    "type": "git",
-    "url": "https://github.com/ue/make-usestate.git"
-  },
-  "bugs": {
-    "url": "https://github.com/ue/make-usestate/issues",
-    "email": "ugurerdal93@gmail.com"
-  },
+		"type": "git",
+		"url": "https://github.com/ue/make-usestate.git"
+	},
+	"bugs": {
+		"url": "https://github.com/ue/make-usestate/issues",
+		"email": "ugurerdal93@gmail.com"
+	},
 	"publisher": "ue",
 	"engines": {
 		"vscode": "^1.0.0"
@@ -22,22 +22,35 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:extension.stateToUseState"
+		"onCommand:extension.stateToUseState",
+		"onCommand:extension.setStateToSet"
 	],
 	"main": "./extension.js",
 	"contributes": {
-		"commands": [{
-            "command": "extension.stateToUseState",
-			"title": "Make useState"
-		}],
+		"commands": [
+			{
+				"command": "extension.stateToUseState",
+				"title": "Make useState"
+			},
+			{
+				"command": "extension.setStateToSet",
+				"title": "Make set..."
+			}
+		],
 		"keybindings": [
-      {
-        "command": "extension.stateToUseState",
-        "key": "ctrl+shift+r",
-        "mac": "cmd+shift+r",
-        "when": "editorTextFocus"
-      }
-    ]
+			{
+				"command": "extension.stateToUseState",
+				"key": "ctrl+shift+r",
+				"mac": "cmd+shift+r",
+				"when": "editorTextFocus"
+			},
+			{
+				"command": "extension.setStateToSet",
+				"key": "ctrl+shift+t",
+				"mac": "cmd+shift+t",
+				"when": "editorTextFocus"
+			}
+		]
 	},
 	"scripts": {
 		"test": "node ./test/runTest.js"
